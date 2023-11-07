@@ -1,0 +1,17 @@
+
+
+Form contains two attribute
+Method : The way of sending data.
+Action : Next Page
+
+in input attributes are 
+Type  : Type of input Box.
+name  : to access its parameter on other page.
+value : default value
+placeholder : attribute is just to provide hint
+                    Recommended is placeholder
+Required : attribute is used for required or mandatory data.
+
+
+
+
