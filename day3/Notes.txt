@@ -1,0 +1,8 @@
+-Div Tags and Span Tags
+-Div means division in web page and span is inLine and division in already division or inline purpose.
+-We can use div tag to group related tags into a singe unit.
+so that we can define styling for all tags.
+
+
+Table Tags : 
+<Table></table>

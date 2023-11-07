@@ -1,0 +1,13 @@
+Html File Extension --->Html
+index is the first page that opens.
+html latest version is html 5.
+It has head and body tag.
+
+Html Comments : Statement ignore by the browser and it is made for humans.
+Single Line and same for Multi Line Comments : <!-- Body -->
+
+
+Heading Tags : h1 -->h6
+Paragraph Tag
+Can we Increase and decrease test font.
+Its done with the help of css.

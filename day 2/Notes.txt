@@ -1,0 +1,8 @@
+bold tag ---> <b> tag not recommended,<strong> tag is recommended.
+italic tag ---> <i> tag not recommended, <em> tag is recommended.
+Ordered List and Unordered List 
+image tag is used for image.
+<img src ="" alt = "">
+
+Self Closing tags like img,hr,br,etc.
+
