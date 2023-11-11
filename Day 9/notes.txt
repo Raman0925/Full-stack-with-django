@@ -1,0 +1,24 @@
+Advanced css Selectors
+*Selectors
+Descendant Selectors
+adjacent Selectors
+attribute Selectors
+nth type of selector
+
+* selector :
+all the tags present in file;
+* means body tag.
+
+Descendant selector
+sub-level --> child tag.
+ul li {}
+style applicable for li tag which i inside p tag
+child need not to be immediate.
+
+adjacent selector
+h1+a{
+}
+anchor tag which is adjacent to h1.
+select all anchor tag which is adjacent to h1.
+div ul+a{}
+select all anchor tags which are adjacent to ul and that ul present inside div.

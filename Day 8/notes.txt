@@ -32,3 +32,8 @@ background -->
 
 how to set border
 border: width style color;
+
+Selectors : Element , Id ,class.
+for every instance element Selectors
+for only one tag--> id se Selectors
+for multiple tags--> class Selectors
