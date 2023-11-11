@@ -1,0 +1,5 @@
+CSS cascading style sheets
+The main objective of css is to add styles to html
+css describes how html elements are displayed on web page
+styling includes fonts style.
+

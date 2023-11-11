@@ -12,6 +12,11 @@ placeholder : attribute is just to provide hint
                     Recommended is placeholder
 Required : attribute is used for required or mandatory data.
 
-
+Creation of label for html Elements
+Label for should containe name of id  = 1'name"
+for inspecting it is useful.
+The value of for attribute should be same as id attribute.
+Implementing Radio Button:
+The name attribute of radio buttons should be same.
 
 

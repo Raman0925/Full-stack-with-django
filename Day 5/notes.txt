@@ -1,0 +1,4 @@
+multiple submit buttons for single form.
+names should be same for button.
+Several options are available but we only need one option radio buttonis used
+How to implement dropdown or select box.
