@@ -3,3 +3,10 @@ The main objective of css is to add styles to html
 css describes how html elements are displayed on web page
 styling includes fonts style.
 
+ - 3 ways to define style for html elements
+1 inline
+2 by using style tag
+3 by using external css file
+
+
+
