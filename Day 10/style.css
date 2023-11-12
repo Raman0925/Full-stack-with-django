@@ -1,0 +1,13 @@
+body{
+    color:red;
+
+}
+form input[type=email]{
+    margin: 10px 20 10 20;
+    
+}
+form input[type="password"]{
+    margin :10px;
+    border: 2px solid black;
+}
+

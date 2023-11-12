@@ -1,0 +1,15 @@
+CSS selectors :
+To style/makeup html elements (h1,p,div,..)
+we have to select html elements and we have to apply styling. elements we have to use css selectors.
+
+
+Attribute Selectors
+We can define style based on attribute also
+
+input[type='password']{
+background : "yellow";
+}
+
+nth of type selectors{
+    
+}
