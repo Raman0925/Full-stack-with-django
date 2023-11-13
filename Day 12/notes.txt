@@ -1,0 +1,8 @@
+The Box Model
+Every Html ELement is  represented as  a rectangular Box.
+Border
+Margin
+Padding
+Content
+The space between content and border is padding.
+

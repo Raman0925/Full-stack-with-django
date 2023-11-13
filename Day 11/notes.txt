@@ -1,0 +1,26 @@
+Font and text in css
+
+1) font family
+2) font -size
+3) font -weight
+4)Line-height
+5) text-align
+6) text-decoration
+
+1)Font- family : 
+
+
+2) fontsize : em is used for relative to parent tag
+in case of coding I have used em in span tag and the parent tag for span is  p tag.
+
+3)Font-weight : 100 means light
+                900 means bold
+
+4)Line-height : 
+Line height is space between two lines.
+
+5)text-align :
+ horizontal alignment of text in web page.
+
+6)Text-decoration : 
+ 
