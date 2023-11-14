@@ -1,0 +1,6 @@
+Bootstrap 
+Today we will learn about components in Bootstrap that are predefined.
+Buttons
+Jumbotron ShowCase
+
+form-group for label and input.
