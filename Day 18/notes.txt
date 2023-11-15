@@ -1,0 +1,21 @@
+JavaScript : to add functionality to the HTML Components.
+JavaScript Primitive Datatypes
+Number
+String
+Object
+Boolean
+undefined variable declared but not initialized
+null
+
++ joins "Raman" + 0 = Raman0
+
+we can use escape characters also
+how to find the length of String?
+s.length
+
+how to access character of a string?
+name = "durga"
+name[2];
+
+Negative index is not supported.
+camelCase convention in JS.

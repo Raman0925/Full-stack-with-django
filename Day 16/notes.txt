@@ -1,0 +1,21 @@
+12 columns and you can divide it into elements
+Grid is very useful technique for layout
+From Table --> Grid --> FlexBox
+
+How to implement grid?
+By using two classes
+1) row <div class="row">
+2) Col <div class="col-lg-12">
+
+
+The allowed screen sizes :
+xl --> Extra Large Size
+lg --> Large size.
+md--> medium size.
+sm --> small size.
+xs --> extra small size
+xxl -- Extra Extra Large Size
+
+On Large screen each element has to take 3 columns length
+col-lg-3
+
