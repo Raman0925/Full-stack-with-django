@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var books = [];
+        input = prompt("which operation you wwant to perform[ add list exit]");
+        while(input!='exit'){
+            if(input=='add'){
+                newBook=prompt('Enter Name of the book to add')
+                    books.push(newBook);
+                            }
+            else if (input=='list'){
+                console.log(books);
+            }
+            else{
+                console.log("InvalidOption");
+
+            }
+            input = prompt("WHich operation to be perfrom");        }
+            alert("Thanks for using the app");
+    </script>
+</body>
+</html>
