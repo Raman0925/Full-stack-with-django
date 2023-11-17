@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        books = [];
+input = prompt('Which Operation you want to perform (add|delete|list) ');
+function addBook(){
+    newBook = prompt("Enter the name of the Book to add");
+    books.push(newBook);}
+function listBook(){
+    console.log("List Of Available Books");
+    for(book of books){
+        console.log(book);
+    }
+
+}
+
+function deleteBook(){
+    name  = prompt('Enter the name of the book');
+    index = books.indexOf(name);
+    if(index==-1){
+        console.log("Specified book not available");
+
+    }else{
+        books.splice(index,1);
+        console.log("specified Book Deleted");
+    }
+
+}
+
+
+
+
+while(input!='exit'){
+    if(input=='add'){
+        addBooks();
+    }else if(input=='list'){
+        listBook();
+    }
+    else if (input=='delete'){
+        deleteBook();
+    }
+    else{
+        console.log("Enter Valid Option");
+
+    }
+    input = prompt('which operation you want to perform add delte list');
+}
+console.log("Thanks for using our application");
+    </script>
+</body>
+</html>
