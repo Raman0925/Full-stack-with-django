@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var movie = { 
+                Hero : "Bahubali",
+                iswatched:true,
+                ishit:false
+        }
+        movie.name;
+        movie['name'];
+        movie['name'] = "india";
+        var nums = {fno:100,sno:200};
+        for(key in nums){
+            nums[key];
+        }
+
+        movie.forEach(function(movie){
+            result = 'I'
+            if(movie.iswatched){
+                result = result+"watched ";
+
+            }
+            else{
+                result = result + 'have not seen';
+            }
+            result = result + movie.name+' and Movies is '
+            if(movie.ishit){
+                result = result+'Hit!!!'
+            }
+            else{
+                result = result +'Flop!!!'
+            }
+            console.log(result);
+        })
+
+
+
+    </script>
+</body>
+</html>
