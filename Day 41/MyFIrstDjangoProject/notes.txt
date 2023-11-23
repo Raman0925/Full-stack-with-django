@@ -1,0 +1,6 @@
+Function Based Views : 
+
+def display(request):
+py manage.py runserver
+
+Activities required for application
