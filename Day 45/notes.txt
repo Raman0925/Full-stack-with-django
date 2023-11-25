@@ -1,0 +1,19 @@
+Html code is define in Template.
+View Meant for business Logic
+Template meant for presenatation logiv/frontend.
+
+
+It is not recommended to write html inside python file (views.py) because
+
+-It reduces readability because python code mixed with html code.
+
+
+from views.py we can use these template files based on our requirement
+Python stuff required to develop template based application
+from pathlib import Path
+print(__file__)
+print(Path(__file__).resolve().parent.parent)
+
+print()
+
+Steps to develop TEmplate based application.

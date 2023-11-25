@@ -1,8 +1,6 @@
 from django.apps import AppConfig
 
 
-class Urladmin1Config(AppConfig):
+class LmvtAppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'urladmin1'
-
-
+    name = 'lmvt_app'
