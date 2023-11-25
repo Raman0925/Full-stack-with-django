@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Encoder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        #encoder {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        #inputFile {
+            margin-bottom: 20px;
+        }
+
+        #encodeButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="encoder">
+    <h1>Video Encoder</h1>
+    <input type="file" id="inputFile" accept="video/*">
+    <button id="encodeButton">Encode Video</button>
+    <p id="output"></p>
+</div>
+
+<script>
+    document.getElementById("encodeButton").addEventListener("click", function() {
+        var inputFile = document.getElementById("inputFile");
+        var outputElement = document.getElementById("output");
+
+        if (inputFile.files.length > 0) {
+            var fileName = inputFile.files[0].name;
+            outputElement.innerHTML = "Encoding: " + fileName;
+            // Here you would typically send the file to a server for processing.
+            // You might use technologies like WebRTC, FFmpeg, or other backend solutions for actual video encoding.
+        } else {
+            outputElement.innerHTML = "Please select a video file.";
+        }
+    });
+</script>
+
+</body>
+</html>
