@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{%load static%}
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Chessboard</title>
+  <link rel="stylesheet" href="chess.css">
+</head>
+<body>
+<h1>Hello, The server time is : {{time}}</h1>
+<p>Hello, The server time is : {{name}}</p>
+
+<hr>
+<ul>
+    {% for key, value in my_dict.items %} 
+      <li>{{key}} - {{value}}</li>
+    {% endfor %}
+    </ul>
+    <img src="{%static "images/marriage.jpeg"%}">
+
+</body>
+</html>
