@@ -1,0 +1,12 @@
+Engine : Name of database Engine
+Name :  Database NameUser Database login user Name
+Password : Database login Password
+Host : The machine on which database server is running
+PORT : The port number on which database server is running
+
+py manage.py startapp
+py manage.py server
+py manage.py server
+
+Logical Database : 
+from sjango

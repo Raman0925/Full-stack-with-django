@@ -1,0 +1,7 @@
+SOLID PRINCIPLES
+
+S single permissible responsibility
+O open and close principle
+L 
+I
+D

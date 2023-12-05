@@ -1,4 +1,18 @@
+
+
 {
-    "git.ignoreLimitWarning": true,
-    "liveServer.settings.port": 5501
-}
+
+    "emmet.includeLanguages": { "django-html": "html" },
+    "files.associations": {
+      "**/*.html": "html",
+      "**/templates/**/*.html": "django-html",
+      "**/templates/**/*": "django-txt"
+    },
+    "[django-html]": {
+      "editor.defaultFormatter": "batisteo.vscode-django",
+      "editor.insertSpaces": false,
+      "editor.tabSize": 2
+    },
+    
+  }
+  
